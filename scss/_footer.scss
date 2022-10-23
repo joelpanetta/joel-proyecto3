@@ -1,0 +1,14 @@
+footer img{
+    height: 3.5rem;    
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(184, 166, 166);
+}
+.footertext{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    }

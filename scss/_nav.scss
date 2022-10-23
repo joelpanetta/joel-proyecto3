@@ -1,0 +1,10 @@
+.active {
+
+    background-color: rgba(224, 224, 224, 0.527);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: black;
+    background-color: rgb(141, 13, 13);
+}
