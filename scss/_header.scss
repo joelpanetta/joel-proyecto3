@@ -1,0 +1,24 @@
+ /* header */
+ header{
+    margin: 2rem 0rem 0rem 0rem ; 
+    border: solid black 2px;
+    background-color: rgb(187, 161, 161);
+    }
+    header nav{
+        width: 100%;
+    }
+    header nav ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+    /* modificacion fuentes navegador */
+    header nav ul li a{
+        text-decoration: none;
+        color: black;
+        background-color: rgb(9, 165, 9);
+        padding: 0.4rem 1.6rem ;
+        border: solid black 1px;
+    }
+ 
+@import "header"
