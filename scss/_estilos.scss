@@ -1,0 +1,73 @@
+@mixin altura ($parametro1, $parametro2){
+    height: $parametro1;
+    width: $parametro2;
+}
+
+/* grid */
+.contenedor {
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer"
+    ;
+}
+
+header {
+    grid-area: header;
+
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(231, 218, 218);
+}
+@keyframes entrada {
+    0% {
+        transform: translatex(-200vh);
+    }
+
+    100% {
+        transform: translatex(0px);
+    }
+}
+
+.animacion {
+    animation: entrada 5s 1;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+
+
+.car {
+    width: 500px;
+    height: 500px;
+
+}
+
+.car img {
+    @include altura(100%,100% )
+}
+
+.slide {
+    border: solid black 5px;
+    margin: 20px;
+}
