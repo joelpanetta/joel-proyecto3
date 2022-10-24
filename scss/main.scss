@@ -1,4 +1,8 @@
-
+@mixin altura ($parametro1, $parametro2){
+    height: $parametro1;
+    width: $parametro2;
+    
+}
 
 @import "nav";
 
@@ -74,9 +78,7 @@ body {
 }
 
 .car img {
-    height: 100%;
-    width: 100%;
-
+    @include altura(100%,100% )
 }
 
 .slide {
@@ -86,3 +88,7 @@ body {
 
 /*  @media */
 @import "mediageneral";
+
+//usando mixin//
+
+

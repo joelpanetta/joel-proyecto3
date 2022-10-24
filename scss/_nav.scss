@@ -1,4 +1,5 @@
-$navcolor:red;
+$navcolor:red;  
+//aca se aplica variable//
 
 
 .active {
@@ -8,6 +9,6 @@ $navcolor:red;
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    color: black;
+    color: rgb(0, 0, 0);
     background-color: rgb(141, 13, 13);
 }
