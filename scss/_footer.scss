@@ -2,17 +2,18 @@
 //aca se aplica variable//
 
 
-footer img{
-    height: 3.5rem;    
-}
+
 footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color:$colorprimario;
-}
-.footertext{
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
+    img{
+        height: 3.5rem; 
     }
+    .footertext{
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+        }
+}
