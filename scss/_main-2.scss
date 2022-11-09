@@ -18,10 +18,7 @@ main {
             height: 13rem;
 
         }
-        #autos {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
+        
 
     }
 
@@ -53,7 +50,10 @@ main {
 .imagenhistoria {
     @extend .fondo;
 }
-
+#autos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 
 

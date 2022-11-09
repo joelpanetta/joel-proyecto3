@@ -16,6 +16,9 @@
 
 header {
     grid-area: header;
+    .animacion {
+        animation: entrada 5s 1;
+    }
 
 }
 
@@ -30,7 +33,7 @@ footer {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(231, 218, 218);
+    background-color: rgb(212, 191, 166);
 }
 @keyframes entrada {
     0% {
